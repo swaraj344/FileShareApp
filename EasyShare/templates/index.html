@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<!-- link your css files -->
+{% endblock head %}
+
+{% block content %}
+
+<h1>Easy Share</h1>
+<h2> {{ip_address}} </h2>
+
+<script>
+   let dirs = {{root|safe}};
+</script>
+{% endblock content %}
